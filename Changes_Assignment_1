@@ -1,0 +1,6 @@
+number.std()
+#Question7
+#dataframe.fillna(number.mode)
+month_mode=dataframe['Month'].mode()
+dataframe['Month'].fillna(month_mode)
+Remove all prints and comments
